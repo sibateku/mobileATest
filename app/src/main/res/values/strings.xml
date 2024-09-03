@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ViewsActivityTest</string>
+    <string name="text">Hello0903</string>
+    <string name="hello">こんにちは</string>
 </resources>
