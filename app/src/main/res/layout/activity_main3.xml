@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <!--
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,8 +47,8 @@
         android:layout_height="wrap_content"
         android:text="÷"
         android:id="@+id/buttonWaru"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/button9" />
+        app:layout_constraintTop_toTopOf="@id/button9"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:layout_width="wrap_content"
@@ -151,4 +152,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/buttonEqual" />
 
+-->
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,23 +5,23 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity4">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ボタンA"
-        android:id="@+id/buttonA"
+        android:text="明示的Intent"
+        android:id="@+id/button1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/buttonB" />
+        app:layout_constraintEnd_toStartOf="@id/button2" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ボタンB"
-        android:id="@+id/buttonB"
+        android:text="暗黙的Intent"
+        android:id="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/buttonA"
-        app:layout_constraintStart_toEndOf="@id/buttonA" />
+        app:layout_constraintTop_toTopOf="@id/button1"
+        app:layout_constraintStart_toEndOf="@id/button1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
