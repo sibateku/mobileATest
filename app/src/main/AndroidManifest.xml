@@ -16,7 +16,7 @@
         android:theme="@style/Theme.ViewsActivityTest"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity6"
+            android:name=".MainActivity7"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,20 +25,20 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity6"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity5"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity4"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

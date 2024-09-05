@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:id="@+id/labelTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transport: "
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textTransport"
+        app:layout_constraintBottom_toTopOf="@id/labelIP" />
+
+    <TextView
+        android:id="@+id/textTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="@id/labelTransport"
+        app:layout_constraintStart_toEndOf="@id/labelTransport" />
+
+    <TextView
+        android:id="@+id/labelIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPアドレス: "
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/labelTransport"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/labelIP"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
